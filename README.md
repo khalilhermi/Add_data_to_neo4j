@@ -67,6 +67,7 @@ Configuration Files (policy.txt) :
 
 The file policy.txt defines the paths and configuration settings used to run the DTI prediction pipeline. It specifies the location of all required input files such as knowledge graph elements, embeddings, datasets, and ontology. Here's a breakdown of what each path points to:
 
+ ```
    node_descriptions_file: JSON file containing textual descriptions of each node in the KG.
 
    source_nodes_file: List of source node names involved in the KG edges.
@@ -92,6 +93,7 @@ The file policy.txt defines the paths and configuration settings used to run the
    validation_dataset: Ground-truth file for evaluating predictions (negative examples).
 
    strategies_workflow: Specifies the prediction strategy (e.g., Simple).
+```
 
 ### Output Files (Located in the Prediction-Results Folder)
 

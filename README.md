@@ -67,31 +67,31 @@ Configuration Files (policy.txt) :
 
 The file policy.txt defines the paths and configuration settings used to run the DTI prediction pipeline. It specifies the location of all required input files such as knowledge graph elements, embeddings, datasets, and ontology. Here's a breakdown of what each path points to:
 
-node_descriptions_file: JSON file containing textual descriptions of each node in the KG.
+   node_descriptions_file: JSON file containing textual descriptions of each node in the KG.
 
-source_nodes_file: List of source node names involved in the KG edges.
+   source_nodes_file: List of source node names involved in the KG edges.
 
-target_nodes_file: List of target node names.
+   target_nodes_file: List of target node names.
 
-attribut_file: File containing edge attributes associated with each interaction.
+   attribut_file: File containing edge attributes associated with each interaction.
 
-drug_embedding_file: File with embedding vectors for drugs.
+   drug_embedding_file: File with embedding vectors for drugs.
 
-target_embedding_file: File with embedding vectors for protein targets.
+   target_embedding_file: File with embedding vectors for protein targets.
 
-missing_embedding_file: List of entities with missing embeddings.
+   missing_embedding_file: List of entities with missing embeddings.
 
-input_file: Bipartite graph file with drug-target pairs to evaluate.
+   input_file: Bipartite graph file with drug-target pairs to evaluate.
 
-file2_path: CSV file listing all drug-target pairs used.
+   file2_path: CSV file listing all drug-target pairs used.
 
-file_path: UniProt-based protein annotation file.
+   file_path: UniProt-based protein annotation file.
 
-ontology_file: The OWL ontology file (custom_ontology-ro.owl) used for semantic reasoning.
+   ontology_file: The OWL ontology file (custom_ontology-ro.owl) used for semantic reasoning.
 
-validation_dataset: Ground-truth file for evaluating predictions (negative examples).
+   validation_dataset: Ground-truth file for evaluating predictions (negative examples).
 
-strategies_workflow: Specifies the prediction strategy (e.g., Simple).
+   strategies_workflow: Specifies the prediction strategy (e.g., Simple).
 
 ### Output Files (Located in the Prediction-Results Folder)
 
